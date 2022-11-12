@@ -1,0 +1,39 @@
+.file-upload-content {
+  display: none;
+  text-align: center;
+}
+.file-upload-input {
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  outline: none;
+  opacity: 0;
+  cursor: pointer;
+}
+.image-upload-wrap {
+  position: relative;
+  height: 250px;
+  border: 4px solid #f09a0b;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.image-upload-wrap:hover {
+  border: 4px dashed #f09a0b;
+}
+.text-information {
+  margin-top: 100px;
+  text-align: center;
+}
+.image-center {
+  display: flex;
+  margin-top: 2rem;
+  justify-content: center;
+  align-items: center;
+}
+.image-container {
+  width: 500px;
+  height: 280px;
+  margin: 0 auto;
+}
