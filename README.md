@@ -4,9 +4,9 @@
 
 `password`: Test123!
 
-### `branch dev`
+### `npm install`
 
-It's development branch into project.
+First install all dependencies.
 
 ### `npm start`
 
