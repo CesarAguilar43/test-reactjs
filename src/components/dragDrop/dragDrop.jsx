@@ -24,7 +24,6 @@ export function DragDrop() {
           className="file-upload-input"
           type="file"
           accept="image/*"
-          multiple
           onChange={handleImage}
         />
         <div className="text-information">

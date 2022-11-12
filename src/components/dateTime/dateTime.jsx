@@ -11,10 +11,10 @@ export function DateTime(props) {
 
   useEffect(() => {
     flatpickr(startPicker.current, {
-      defaultDate: ["10-20-2003"],
-      dateFormat: "m-d-Y",
+      defaultDate: ["2003-10-20"],
+      dateFormat: "Y-m-d",
       altInput: true,
-      altFormat: "m-d-Y",
+      altFormat: "Y-m-d",
       onOpen: () => {
         document
           .getElementsByClassName("cur-year")
@@ -43,7 +43,7 @@ export function DateTime(props) {
           [`${className}`]: className,
         })}
         {...field}
-        value={moment(field.value).format("MM-DD-YYYY")}
+        value={moment(field.value).format("YYYY-MM-DD")}
         placeholder="Seleccionar fecha..."
         ref={startPicker}
       />
