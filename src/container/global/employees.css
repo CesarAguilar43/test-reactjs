@@ -1,0 +1,10 @@
+.spinner {
+  color: #f09a0b;
+  font-size: 20px;
+}
+.spinner-container {
+  display: flex;
+  margin-top: 2rem;
+  justify-content: center;
+  align-items: center;
+}
