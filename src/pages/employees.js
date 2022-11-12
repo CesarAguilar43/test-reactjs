@@ -85,9 +85,7 @@ export default function Employees() {
                             <td>{id}</td>
                             <td>{last_name}</td>
                             <td>{name}</td>
-                            <td>
-                              {moment(birthday).format("YYYY-MM-DD HH:mm:ss")}
-                            </td>
+                            <td>{moment(birthday).format("YYYY-MM-DD")}</td>
                           </tr>
                         );
                       }),

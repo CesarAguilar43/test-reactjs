@@ -17,7 +17,7 @@ dobMin.setFullYear(
 const parseDateString = (value, originalValue) => {
   const parsedDate = isDate(originalValue)
     ? originalValue
-    : parse(originalValue, "MM-dd-yyyy", new Date());
+    : parse(originalValue, "yyyy-MM-d", new Date());
   return parsedDate;
 };
 
